@@ -1,0 +1,32 @@
+
+footer {
+  height: $footerHeight;
+  background-color: $black;
+  color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid $white;
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span {
+      &:nth-child(1) {
+        font-family: "Haettenschweiler";
+        letter-spacing: 1px;
+        margin-right: $size-7;
+        font-size: $size-5;
+      }
+      &:nth-child(2) {
+        font-family: "Mistral";
+        font-size: $size-4;
+      }
+    }
+    svg {
+      margin: 0 $size-7;
+    }
+  }
+}

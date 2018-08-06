@@ -1,0 +1,17 @@
+@import "variables";
+
+@import "~bulma/sass/base/_all.sass";
+@import "~bulma/sass/grid/columns.sass";
+@import "~bulma/sass/elements/button.sass";
+
+/**
+ * Global page transition
+ */
+.page-enter-active, .page-leave-active {
+  transition: opacity ($speed * 3) $easing, transform ($speed * 3) $easing;
+  transform: translateX(0);
+}
+.page-enter, .page-leave-to {
+  opacity: 0;
+  transform: translateX(30px);
+}

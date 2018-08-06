@@ -1,0 +1,39 @@
+@import "~bulma/sass/utilities/_all";
+@import "fonts";
+
+$headerHeight: 80px;
+$footerHeight: 100px;
+$sideNavWidth: 300px;
+
+$zindexRef: 10;
+$duration: .5s;
+
+$iconSize: (
+  xs: 20px,
+  sm: 30px,
+  md: 45px,
+  lg: 60px
+);
+
+// Customize bulmas variables
+
+$black: #020202;
+$grey: #b6b6b6;
+// Update blue
+$blue: #72d0eb;
+// Add pink and its invert
+$pink: #ffb3b3;
+$pink-invert: #fff;
+// Add a serif family
+//$family-serif: "Hiragino", "Georgia", serif;
+
+// 3. Set the derived variables
+// Use the new pink as the primary color
+$primary: $pink;
+$primary-invert: $pink-invert;
+// Use the existing orange as the danger color
+$danger: $orange;
+// Use the new serif family
+$family-primary: "Hiragino", "Georgia", serif;
+
+$link: $grey-dark;
