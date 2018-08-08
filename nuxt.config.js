@@ -24,10 +24,23 @@ module.exports = {
     ['nuxt-fontawesome', {
       component: 'fa',
       imports: [
-        //import whole set
+        {
+          set: '@fortawesome/fontawesome-free-brands',
+          icons: ['faInstagram', 'faFacebook']
+        },
         {
           set: '@fortawesome/fontawesome-free-solid',
-          icons: ['faHome', 'faAddressCard', 'faAngleDown', "faCopyright"]
+          icons: [
+            'faHome',
+            'faAddressCard',
+            'faAngleDown',
+            'faCopyright',
+            'faFlag',
+            'faMapMarkerAlt',
+            'faEnvelope',
+            'faInfoCircle',
+            'faPhone'
+          ]
         },
       ]
     }],

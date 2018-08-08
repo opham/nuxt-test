@@ -28,5 +28,11 @@
 </script>
 
 <style lang="scss" scoped >
+  .container {
+    background-image: url(~/assets/img/default-cover.jpg);
+    background-repeat: no-repeat;
+    backgroun-padding: 0 0;
+    background-size: cover;
+  }
 </style>
 

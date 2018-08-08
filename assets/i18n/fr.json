@@ -8,11 +8,18 @@
   },
   "home": {
     "title": "Bienvenue",
-    "introduction": "Ceci est un texte d'introduction en Français."
+    "introduction": "Site en construction, patience patience...",
+    "text": "En attendant, retrouvez-nous sur Facebook et Instagram!",
+    "text2": "A bientôt, Erwan et Marion"
   },
   "about": {
     "title": "À propos",
-    "introduction": "Cette page est faite pour vous donner plus d'informations."
+    "introduction": "Ceci est un texte d'introduction en Français.",
+    "opening": "L'épicerie fine a été ouverte le 1er Août 2018",
+    "address": "1 Place du Marché Cancale",
+    "email": "contact@lechoppegastronomique.com",
+    "tel": "02 99 73 93 54",
+    "info": "Epicerie fine, petite restauration maison à emporter"
   },
   "contact": {
     "title": "Contact",

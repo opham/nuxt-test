@@ -12,7 +12,12 @@
   },
   "about": {
     "title": "About",
-    "introduction": "This page is made to give you more informations."
+    "introduction": "This is an introduction in English.",
+    "address": "1 Place du Marché Cancale",
+    "email": "contact@lechoppegastronomique.com",
+    "tel": "+332 99 73 93 54",
+    "opening": "Opened on the 1rst of August 2018",
+    "info": "Epicerie fine, petite restauration maison à emporter"
   },
   "contact": {
     "title": "Contact",

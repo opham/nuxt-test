@@ -44,7 +44,6 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;
-            text-align: center;
           }
         }
 
@@ -64,8 +63,7 @@ body {
 .panel {
   position: relative;
   background-color: $white;
-  width: 50%;
-  min-height: 300px;
+  width: 70%;
   box-shadow: 2px 2px 10px 2px $grey-dark;
   border-radius: 5px;
 
@@ -94,10 +92,6 @@ body {
 
     p {
       margin-bottom: $size-7;
-
-      &:last-of-type {
-        margin-bottom: 0;
-      }
     }
   }
 }
